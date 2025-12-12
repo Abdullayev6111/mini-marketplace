@@ -1,3 +1,4 @@
+console.log('products.js yuklandi - muvaffaqiyat!');
 const productsContainer = document.getElementById('products');
 let products = [];
 window.addEventListener('storage', updateCartCount);
