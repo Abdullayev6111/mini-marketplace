@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-marketplace</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="header-left">
+          <svg class="logo-img" width="42" height="42" viewBox="0 0 24 24" fill="white">
+            <path
+              d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.57-15L5.9 3H2v2h2.9l3.4 10h10.4l3.4-10H8.43zm1.57 8H17v-2H9.9l-.9-2h9.1l1.2 3H9z"
+            />
+          </svg>
+          <span class="logo-text">MarketPlace</span>
+        </div>
+        <div class="header-right">
+          <a href="#">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div class="cart-count-circle"><p id="count">0</p></div>
+          </a>
+          <button class="login-btn">Login</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <section id="products"></section>
+      <section id="cart-root"></section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#">Bosh sahifa</a>
+          <a href="#">Mahsulotlar</a>
+          <a href="#">Kategoriyalar</a>
+          <a href="#">Aloqa</a>
+          <a href="#">Foydalanish shartlari</a>
+        </div>
+        <div class="footer-bottom">© 2025 MarketPlace. Barcha huquqlar himoyalangan.</div>
+      </div>
+    </footer>
+    <script src="./products.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
